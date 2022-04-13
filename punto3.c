@@ -32,7 +32,6 @@ int main()
 
     cargarClientes(clientes,nroDeClientes);
     mostrarClientes(clientes,nroDeClientes);
-    getchar();
     free(clientes);
     fflush(stdin);
     getchar();
